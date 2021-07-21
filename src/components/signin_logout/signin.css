@@ -1,0 +1,103 @@
+.backgroundSingin{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url("https://wallpaperaccess.com/full/2454628.png");
+    color: white;
+}
+.layoutSignin {
+    width: 350px;
+    margin: auto;
+    padding-bottom: 20px;
+    border: 1px solid rgb(161, 157, 157);
+    padding: 35px 25px 15px 25px;
+    border-radius: 5px
+}
+.h2 {
+    font-size: 25px;
+    margin-top: 0;
+    width: max-content;
+    padding-bottom: 2px;
+    border-bottom: 3px solid white;
+}
+.fromSignin {
+    margin: 0 20px;
+}
+.label{
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(139, 139, 136);
+    margin: 30px 0 0 0;
+    height: 30px;
+}
+.label label{
+    font-size: 150%;
+}
+.label input {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 85%;
+    height: 100%;
+    padding-left: 10px;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+/* .label input:focus {
+    background: rgb(255, 255, 255 , 0.3);
+} */
+.bt_signin {
+    height: 40px;
+    width: 100px;
+    background: rgb(230, 224, 224);
+    border: 1px solid rgb(139, 139, 136);
+    border-radius: 5%;
+    font-weight: 550;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.br_signin {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.br_signin div::after {
+    content: "";
+    width: 44%;
+    height: 2px;
+    background:rgb(139, 139, 136);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.br_signin div::before {
+    content: "";
+    width: 44%;
+    height: 2px;
+    background:rgb(139, 139, 136);
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.forgotPass p {
+    margin-top: 5px;
+}
+.forgotPass a {
+    font-size: 13px;
+    padding-left: 20px;
+    color: rgb(202, 197, 197);
+}
+
+.logSignin a {
+    color: rgb(204, 197, 197);
+    text-decoration: none;
+}
+.logSignin p {
+    font-size: 20px;
+    text-align: right;
+}

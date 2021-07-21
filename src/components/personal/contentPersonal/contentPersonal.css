@@ -1,0 +1,114 @@
+.contentPersonal {
+    width: 70%;
+}
+.contentPersonal h1{
+    text-align: center;
+}
+.contentPersonal .d-container{
+    margin: auto;
+}
+/* =================== */
+
+.d-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    perspective: 600px;
+  }
+  .card {
+      /* just style for card out line and size */
+      border: 1px solid black;
+      width: 200px;
+      height: 250px;
+      /* end style for card out line and size */
+  
+      position: relative; /* declare parent for inner child absolute */
+      transform-style: preserve-3d; /* to tranform with 3d effect */
+      animation: flip 3s linear infinite;
+      transition: transform 0.2s;
+  }
+  .face {
+      position: absolute; /* for stick 2 card side together */
+      backface-visibility: hidden; /* hide back face when front face is face us */
+  
+    /* just set size for card */
+      width: 200px;
+      height: 250px;
+    /* end set size for card */
+  
+    /* just style for text */
+      font-weight: bold;
+      font-size: 20px;
+    /* end style for text */
+  }
+  .front img {
+      width: 100%;
+      height: 100%;
+  }
+  .back {
+      transform: rotateY(180deg); /* to flip back */
+  }
+  .back img {
+    width: 100%;
+    height: 100%;
+}
+  /* .card:hover {
+      transform: rotateY(180deg);  
+  } */
+  @keyframes flip {
+    30%, 70% {
+      transform: rotateY(0);
+    }
+    45%, 55% {
+      transform: rotateY(180deg);
+    }
+  }
+/* ===================================== */
+
+.body{
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.slide {
+  width: 470px;
+  height: 500px;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+}
+.slides img{
+  width: 100%;
+  height: 100%;
+}
+.slides input{
+  display: none;
+}
+
+.a {
+  position: absolute;
+  display: flex;
+  width: 470px;
+  margin-top: -40px;
+  justify-content: center;
+}
+
+.b {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.b:not(:last-child) {
+  margin-right: 20px;
+}
+
+.b:hover {
+  background: black;
+}

@@ -1,0 +1,59 @@
+.NavPersonal {
+    width: 20%;
+    height: 80vh;
+    background: rgb(250, 248, 248);
+} 
+.avatar_personal {
+    /* background-image: url(https://lazi.vn/uploads/photo/1611813163_lazi_829094.jpg);
+    background-size: 100%; */
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid rgb(158, 153, 153);
+}
+.avatar_personal img {
+    max-width: 100%;
+    max-height: 100%;
+    /* border-radius: 50%; */
+}
+.information {
+    margin: 0;
+    padding: 0;
+}
+.information li{
+    list-style: none;
+}
+.information_personal {
+    text-align: center;
+    font-weight: 600;
+}
+.Social_Network{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Social_Network li {
+    width: 35%;
+    padding: 5px;
+    border: 1px solid rgb(100, 99, 99);
+    margin-top: 5px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.Social_Network .facebook{
+    background-color: rgb(88, 88, 238);
+}
+
+.Social_Network .email{
+    background-color: rgb(235, 39, 39);
+}
+
+.related_information li{
+    list-style: none;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

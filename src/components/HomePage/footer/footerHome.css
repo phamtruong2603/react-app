@@ -1,0 +1,11 @@
+.MainFootertHome {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-image: linear-gradient(0 , #bbb5b5 , rgb(151, 149, 149) );
+}
+
+.footertHome {
+    width: 70%;
+    padding-top: 30px;
+}

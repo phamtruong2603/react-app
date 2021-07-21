@@ -1,0 +1,38 @@
+.mainHeaderTeamWork {
+    background: rgba(225, 225, 225, 1);
+}
+.headerTeamWork {
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.logoTeamWork {
+    display: flex;
+}
+.logoTeamWork h2 {
+    padding-left: 30px;
+}
+.headerTeamWork img{
+    height: 80px;
+}
+
+
+.searchTeamWork {
+    margin: auto 0;
+}
+
+.searchTeamWork input{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 35px;
+}
+.searchTeamWork button{
+    margin-top: -1px;
+    border: none;
+    height: 35px;
+    width: 35px;
+}
